@@ -16,13 +16,13 @@ Documentation
 
 ### 1. Preparing the VPS Environment
 
-Log in to Your VPS in Terminal 
+Log in to VPS in Terminal 
 
 ```bash
- ssh root@your_vps_ip
+ ssh root@vps_ip
 ```
 
-Update and Upgrade Your System
+Update and Upgrade System
 
 ```bash
   sudo apt update
@@ -45,7 +45,7 @@ Install Git
 ```
 
 
-###  2. Setting Up the MongoDB Database
+###  2. Setting Up the MySQL Database
 
 ## Setup MySQL on VPS
 ### Install MySQL
@@ -166,7 +166,7 @@ mysql://project_user:password_here@127.0.0.1:3306/database_name
 
 ### 3. Deploying the Express and Node.js Backend
 
-Clone Your Backend Repository
+Clone Backend Repository
 
 ```bash
  mkdir /var/www
@@ -408,7 +408,7 @@ using Video.js:
 
 Step 4 : Add Video Lectures
 Upload Videos to VPS:
-Use SCP or FTP to upload video files to a directory on your VPS (e.g., /var/www/videos).
+Use SCP or FTP to upload video files to a directory on VPS (e.g., /var/www/videos).
 Serve Videos with Nginx:
 
 Add a location block in the Nginx configuration to serve videos:
@@ -425,7 +425,7 @@ Link Videos in  Website:
 In React frontend, link the videos using the URL:
 
 ```bash 
-http://your-domain.com/videos/video-name.mp4 
+http://yrdomain.com/videos/video-name.mp4 
 ```
 
 Step 5. Configure Server Settings : Ensure server is configured to handle video streaming. This may involve adjusting settings in Apache to allow for larger file sizes and proper MIME types.
@@ -461,9 +461,9 @@ Streaming often involves large video files. Adjust the client_max_body_size sett
 ```bash
 server {
     listen 80;
-    server_name yourdomain.com;
+    server_name urdomain.com;
 
-    root /path/to/your/videos;
+    root /path/to/Ur/videos;
 
     location / {
         client_max_body_size 100M;  # Adjust as needed
