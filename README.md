@@ -12,6 +12,7 @@ Documentation
 - Deploying the React Frontends
 - Configuring Nginx as a Reverse Proxy
 - Setting Up SSL Certificates
+- Video Hosting process
 
 
 ### 1. Preparing the VPS Environment
