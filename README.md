@@ -1,5 +1,4 @@
 # PaarshEdu_VPS
-Documentation
 
 ## Deploying MERN Stack Project on Hostinger VPS
 
